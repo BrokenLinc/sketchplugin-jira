@@ -43,9 +43,9 @@ function selectProject() {
 }
 
 function requestAndSaveProject() {
-	var url = [doc askForUserInput:"What is the base URL?" initialValue:"makemydeal.atlassian.net"]
-	var username = [doc askForUserInput:"What is your username?" initialValue:"landerson"]
-	var password = [doc askForUserInput:"What is your password?" initialValue:"FvpxZEpG363V"]
+	var url = [doc askForUserInput:"What is the base URL?" initialValue:"myproject.atlassian.net"]
+	var username = [doc askForUserInput:"What is your username?" initialValue:""]
+	var password = [doc askForUserInput:"What is your password?" initialValue:""]
 
 	var projects = getProjects();
 	projects.push({
