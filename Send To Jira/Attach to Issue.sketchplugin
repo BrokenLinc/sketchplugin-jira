@@ -1,0 +1,6 @@
+#import 'utilities.js'
+#import 'api.js'
+
+var project = selectProject();
+var issue = [doc askForUserInput:"What's the issue name? (MP-123)" initialValue:""]
+exportArtboardsAndSend(project, issue);
